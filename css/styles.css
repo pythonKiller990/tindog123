@@ -1,0 +1,239 @@
+body{
+  font-family: 'Montserrat';
+}
+
+body,h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-Bold';
+}
+
+h3{
+
+  font-size: 1.5rem;
+}
+h2{
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color: #afafaf;
+}
+/*Heading*/
+
+.big-heading{
+
+  font-family: 'Montserrat-Bold';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+
+}
+
+.price-text
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title{
+  background-color: #ff4c68;
+}
+#intro
+{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.container
+{
+  padding: 3% 15% 7%;
+}
+
+
+#navbar
+{
+  padding:0 0 4.5rem;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+#myBrand
+{
+  font-family: 'ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*Download Buttons*/
+
+.myBtn
+{
+  margin:5% 3% 5% 0;
+}
+
+.myImage{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+
+
+/*Features*/
+
+#features{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-topic
+{
+  font-size: 1.5rem;
+}
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+
+#features i
+{
+  color: tomato;
+  margin-bottom: 1rem;
+}
+
+#features i:hover
+{
+  color: #ff4c68;;
+  margin-bottom: 1rem;
+}
+
+/*Testimonials*/
+
+#testimonials
+{
+
+text-align: center;
+background-color: #fd7e89;
+color: #fff;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+/*Press*/
+
+#press
+{
+  background-color: #fd7e89;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press_image
+{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col
+{
+  padding: 3% 2%;
+}
+
+.price-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.price-topic{
+  font-size: 1.5rem;
+}
+
+
+/*Call to action*/
+
+
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+
+
+#cta button
+{
+  margin:5% 3% 5% 0;
+}
+
+.cta-heading{
+  font-size: 1.5rem;
+}
+
+
+/*Footer*/
+
+
+#footer
+{
+  padding: 8% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+
+
+.icon
+{
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px)
+{
+  .title{
+    text-align: center;
+  }
+  .myImage{
+
+    transform: rotate(0);
+    position: static;
+
+  }
+}
